@@ -1,0 +1,7 @@
+<%= form_tag(dinosaurs_path, :method => "get") do %>
+  <%= label_tag(:with_name, "Name:") %>
+  <%= text_field_tag(:with_name) %>
+  <%= label_tag(:taller_than, "Taller than(m):") %>
+  <%= text_field_tag(:taller_than) %>
+  <%= submit_tag("Search") %>
+<% end %> 

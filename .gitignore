@@ -1,0 +1,5 @@
+.bundle
+db/*.mysql2
+log/*.log
+tmp/
+*.swp

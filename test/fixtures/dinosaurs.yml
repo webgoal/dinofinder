@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  height: 9.99
+
+two:
+  name: MyString
+  height: 9.99
+
+stego:
+  name: Stegosaurus 
+  height: 4.0
+
+velo:
+  name: Velociraptor
+  height: 1.0
+
+tirano:
+  name: Tiranosaurus Rex
+  height: 5.6

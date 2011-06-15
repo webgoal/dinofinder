@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @dinosaur.name %>
+</p>
+
+<p>
+  <b>Height:</b>
+  <%= @dinosaur.height %>
+</p>
+
+
+<%= link_to 'Edit', edit_dinosaur_path(@dinosaur) %> |
+<%= link_to 'Back', dinosaurs_path %>
